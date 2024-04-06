@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.information-section {
+  width: 100%;
+  height: 50px;
+  padding: 16px 100px;
+
+  background: #336EF9;
+}
+.navbar{
+  height: 100px;
+}
+
