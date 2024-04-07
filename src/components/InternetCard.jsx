@@ -11,7 +11,7 @@ const InternetCard = ({
   imageUrl,
 }) => {
   return (
-    <div className="border rounded-md shadow-4xl hover:shadow-lg px-8 bg-white w-[393px]">
+    <div className="border rounded-md shadow-4xl hover:shadow-lg px-8 bg-white lg:w-[393px]">
       <div className="flex items-center justify-center">
         <img
           src={imageUrl}

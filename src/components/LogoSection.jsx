@@ -19,27 +19,29 @@ const LogoSection = () => {
           <h2 className="text-2xl text-center font-bold mb-4">
             We Are Internet Service <br /> Provider Company
           </h2>
-          <div className="flex justify-center items-center gap-4">
-            <Card
-              title="Broadband Connection"
-              description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
-              imageUrl="src\assets\clipart382231 1.png"
-            />
-            <Card
-              title="Office Internet"
-              description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
-              imageUrl="src\assets\router 1 (1).png"
-            />
-            <Card
-              title="Business Pack"
-              description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
-              imageUrl="src\assets\router 1.png"
-            />
-            <Card
-              title="TV & Streaming"
-              description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
-              imageUrl="src\assets\router 1 (2).png"
-            />
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mt-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8 mt-2">
+              <Card
+                title="Broadband Connection"
+                description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
+                imageUrl="src\assets\clipart382231 1.png"
+              />
+              <Card
+                title="Office Internet"
+                description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
+                imageUrl="src\assets\router 1 (1).png"
+              />
+              <Card
+                title="Business Pack"
+                description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
+                imageUrl="src\assets\router 1.png"
+              />
+              <Card
+                title="TV & Streaming"
+                description="Lorem ipsum dolor sit amet consectetur. Viverra convallis donec ac egestas egestas bibendum proin. Cursus id gravida proin felis et est nunc."
+                imageUrl="src\assets\router 1 (2).png"
+              />
+            </div>
           </div>
         </div>
       </div>

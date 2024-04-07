@@ -53,7 +53,7 @@ const InternetPlans = () => {
         Discover Our Best <br />
         Plans
       </h1>
-      <div className=" px-8 grid-cols-3 gap-2 flex justify-around">
+      <div className=" px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-2  justify-around">
         <InternetCard {...basicPlanData} />
         <InternetCard {...standardPlanData} />
         <InternetCard {...premiumPlanData} />
