@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="pl-8">
         <p className="text-md text-white mb-4">
           Have any questions or need assistance? Contact us now.{" "}
-          <span className="border border-white text-white px-6 py-3 mx-2 rounded-full hover:bg-blue-600 transition duration-300">
+          <span className="border border-white text-white px-6 py-3 mx-2 rounded-full transition duration-300 hover:bg-blue-600 hover:text-yellow-500 hover:border-yellow-600">
             Contact Us
           </span>
         </p>

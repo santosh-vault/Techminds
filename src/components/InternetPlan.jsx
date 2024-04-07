@@ -2,7 +2,7 @@ import React from "react";
 import InternetCard from "./InternetCard";
 
 const basicPlanData = {
-  imageUrl: "",
+  imageUrl: "src/assets/net/1.png",
   packageName: "Starter Pack",
   speed: "75",
   features: [
@@ -17,6 +17,7 @@ const basicPlanData = {
 };
 
 const standardPlanData = {
+  imageUrl: "src/assets/net/2.png",
   packageName: "Popular Plan",
   speed: "100",
   features: [
@@ -31,6 +32,7 @@ const standardPlanData = {
 };
 
 const premiumPlanData = {
+  imageUrl: "src/assets/net/3.png",
   packageName: "Best Plan",
   speed: "150",
   features: [

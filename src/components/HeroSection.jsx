@@ -8,7 +8,7 @@ const HeroSection = () => {
       style={{ height: "600px", top: "150px", backgroundColor: "#020626" }}
     >
       <div className="max-w-[600px] text-white">
-        <h1 className="text-4xl font-bold mb-4">
+        <h1 className="text-2xl font-semibold mb-4">
           The Fastest <span className="text-yellow-400">Connection</span> <br />
           Service Provider
         </h1>
@@ -20,7 +20,7 @@ const HeroSection = () => {
           consequat fermentum.
         </p>
         <div className="flex space-x-4">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded-full">
+          <button className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600">
             See Packages
           </button>
           <button className="flex text-white gap-2 px-4 py-2 rounded-full">

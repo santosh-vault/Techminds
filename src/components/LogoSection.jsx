@@ -4,7 +4,7 @@ import Card from "./Card";
 const LogoSection = () => {
   return (
     <div className=" px-12 py-16 xl:px-24">
-      <h2 className="text-2xl text-center font-bold mb-8">
+      <h2 className="text-2xl text-center font-semibold mb-8">
         We are trusted by 100+ businesses
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-8">

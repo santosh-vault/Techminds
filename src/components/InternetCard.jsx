@@ -12,11 +12,13 @@ const InternetCard = ({
 }) => {
   return (
     <div className="border rounded-md shadow-4xl hover:shadow-lg px-8 bg-white w-[393px]">
-      <img
-        src={imageUrl}
-        alt={packageName}
-        className="w-full h-48 object-cover rounded-t-md"
-      />
+      <div className="flex items-center justify-center">
+        <img
+          src={imageUrl}
+          alt={packageName}
+          className="w-34 h-34 object-cover rounded-t-md p-2"
+        />
+      </div>
       <div className="p-6">
         <h2 className="text-xl text-center font-semibold mb-4">
           {packageName}

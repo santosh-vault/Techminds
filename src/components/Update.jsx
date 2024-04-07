@@ -30,7 +30,7 @@ const Update = () => {
   return (
     <div className="mx-10 mt-24 mb-8">
       <div className="mb-8 justify-center flex">
-        <h1 className="text-4xl text-center font-semibold mb-4">
+        <h1 className="text-3xl text-center font-semibold mb-4">
           What’s New Update is <br />
           Coming
         </h1>
